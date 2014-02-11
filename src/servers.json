@@ -1,0 +1,39 @@
+{
+	"server" : [ {
+		"name" : "freenode",
+		"enable" : true,
+		"url" : "irc.freenode.net",
+		"port" : 6667,
+		"nickname" : "botine",
+		"realname" : "b0tine",
+		"channel" : [ {
+			"name" : "#botine-testchan",
+			"plugin" : [ {
+				"name" : "modMarkov"
+			} ]
+		},
+		{
+			"name" : "#botine-testchan2",
+			"plugin" : [ {
+				"name" : "modMarkov"
+			} ]
+		} ]
+	},
+	{
+		"name" : "epiknet",
+		"enable" : false,
+		"url" : "irc.epiknet.net",
+		"port" : 6667,
+		"nickname" : "botine",
+		"realname" : "b0tine",
+		"channel" : [ {
+			"name" : "#botine-testchan",
+			"plugin" : [ {
+				"name" : "modTest"
+			},
+			{
+				"name" : "modParrot"
+			} ]
+		} ]
+	} ]
+}
